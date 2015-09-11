@@ -1,0 +1,126 @@
+
+\documentclass[12pt]{amsart}
+\usepackage{amsmath,amsthm,amsfonts,amscd,amssymb,amsopn}
+\usepackage{eucal, mathrsfs}
+\usepackage[all]{xy}
+
+
+\theoremstyle{plain}
+
+%fonts
+\newcommand{\mb}[1]{\mathbf #1}
+\newcommand{\mf}[1]{\mathfrak #1}
+\newcommand{\mc}[1]{\mathcal #1}
+\newcommand{\ms}[1]{\mathscr #1}
+\newcommand{\mcu}[1]{\mathcu #1}
+
+%symbols
+\newcommand{\da}{\downarrow}
+\newcommand{\ra}{\rightarrow}
+\newcommand{\hra}{\hookrightarrow}
+\newcommand{\dra}{\dashrightarrow}
+\newcommand{\la}{\leftarrow}
+\newcommand{\lra}{\longrightarrow}
+\newcommand{\del}{\partial}
+
+%operators
+\DeclareMathOperator{\WC}{WC}
+\DeclareMathOperator{\Br}{Br}
+\DeclareMathOperator{\br}{br}
+\DeclareMathOperator{\Pic}{Pic}
+\DeclareMathOperator{\sPic}{\ms Pic}
+\DeclareMathOperator{\ind}{ind}
+\DeclareMathOperator{\per}{per}
+\DeclareMathOperator{\Div}{Div}
+\DeclareMathOperator{\NS}{NS}
+\DeclareMathOperator{\Prin}{Prin}
+\DeclareMathOperator{\im}{im}
+
+%\newcommand{\sPic}{\ms P\!ic}
+
+%common objects
+\newcommand{\blank}{\_\_}
+
+%common in this paper
+\renewcommand{\k}{k}
+\newcommand{\sk}{\ov{\k}}
+
+\newtheorem{Thm}{Theorem}[subsection]
+\newtheorem{Lem}[Thm]{Lemma}
+\newtheorem{Cor}[Thm]{Corollary}
+\newtheorem{Prop}[Thm]{Proposition}
+\newtheorem{Def/Prop}[Thm]{Definition/Proposition}
+\newtheorem{Remark}[Thm]{Remark}
+\newtheorem*{Conj}{Conjecture}
+\newtheorem{Question}[Thm]{Question}
+\newtheorem*{GenConj}{Generalized Conjecture}
+\newtheorem*{Note}{Note}
+\newtheorem*{Prob}{Problem}
+\newtheorem*{Claim}{Claim}
+\newtheorem*{SubClaim}{SubClaim}
+\newtheorem*{Thm*}{Theorem}
+\newtheorem*{Rem*}{Remark}
+\newtheorem*{Lem*}{Lemma}
+\newtheorem*{SubLem}{SubLemma}
+\newtheorem*{Cor*}{Corollary}
+\newtheorem*{Prop*}{Proposition}
+\theoremstyle{definition}
+\newtheorem{Def}[Thm]{Definition}
+
+\newenvironment{Rem}{\begin{Remark}}{\nolinebreak{\hfill
+$\blacklozenge$} \end{Remark}}
+
+
+
+\newcommand{\ov}{\overline}
+\newcommand{\til}{\widetilde}
+
+\newcommand{\cal}[1]{\mathcal{#1}}
+
+\newcommand{\bZ}{\mathbb{Z}}
+\newcommand{\bP}{\mathbb{P}}
+\newcommand{\bA}{\mathbb{A}}
+\newcommand{\bQ}{\mathbb{Q}}
+\newcommand{\bG}{\mathbb{G}}
+
+\newcommand{\cZ}{\mathcal{Z}}
+\newcommand{\cH}{\mathcal{H}}
+\newcommand{\cU}{\mathcal{U}}
+\newcommand{\cF}{\mathcal{F}}
+\newcommand{\cO}{\mathcal{O}}
+\newcommand{\cJ}{\mathcal{J}}
+\newcommand{\cL}{\mathcal{L}}
+\newcommand{\cI}{\mathcal{I}}
+\newcommand{\cK}{\mathcal{K}}
+
+\newcommand{\E}{\mathcal{E}}
+\newcommand{\Q}{\mathbb{Q}}
+
+\def\cyr{\fontencoding{OT2}\fontfamily{wncyr}\selectfont}
+
+\newcommand{\fa}{\mathfrak{a}}
+\newcommand{\fb}{\mathfrak{b}}
+
+\newcommand{\et}{\acute{e}t}
+
+\def\<{\left<}
+\def\>{\right>}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PAGE FORMATTING
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textwidth= 6.25in
+\textheight=8.75in
+\voffset-.5in
+\hoffset-.75in
+\marginparwidth=56pt
+
+%%%%%%%%%%%%%%%%%%%%%%
+% My own commenting:
+\newcommand{\comment}[1]{\marginpar{\tiny{#1}}}
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+Let $\E$ be the elliptic curve defined over $\Q$ by the affine equation
