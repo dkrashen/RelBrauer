@@ -16,3 +16,22 @@ print "Elliptic Curve defined by y^2 + " + str(a1) +"xy + " + str(a3) +"y = x^3 
 
 
 #output the sum of the 2 points
+
+
+# sample input
+
+p1 = something
+p2 = something else
+
+function add_points(p1, p2)
+
+
+return ...
+
+
+#####
+##testing area
+
+print add_points(p1, p2)
+
+
