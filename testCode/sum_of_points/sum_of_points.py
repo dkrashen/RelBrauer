@@ -5,13 +5,13 @@
 
 # sample input
 
-E = EllipticCurve('389a1')
+#E = EllipticCurve('389a1')
 
-P = E(-1,1)
-Q = E(0,-1)
+#P = E(-1,1)
+#Q = E(0,-1)
 
 
-#defin a function to add the two points
+#define a function to add the two points
 
 def add_points(P, Q):
 
@@ -21,6 +21,6 @@ def add_points(P, Q):
 #####
 ##testing area
 
-print add_points(P, Q)
+#print add_points(P, Q)
 
 
